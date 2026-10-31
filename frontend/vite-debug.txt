@@ -1,0 +1,1224 @@
+2026-04-09T16:10:44.610Z vite:config config file loaded in 2926.16ms
+2026-04-09T16:10:44.613Z vite:env loading env files: [
+  'd:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1/.env',
+  'd:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1/.env.local',
+  'd:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1/.env.development',
+  'd:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1/.env.development.local'
+]
+2026-04-09T16:10:44.613Z vite:env env files loaded in 0.79ms
+2026-04-09T16:10:44.614Z vite:env using resolved env: {}
+2026-04-09T16:10:44.627Z vite:config using resolved config: {
+  plugins: [
+    'vite:optimized-deps',
+    'vite:watch-package-data',
+    'vite:pre-alias',
+    'alias',
+    'vite-plugin-inspect',
+    'vite-plugin-vue-inspector',
+    'vite-plugin-vue-devtools',
+    'vite:modulepreload-polyfill',
+    'vite:resolve',
+    'vite:html-inline-proxy',
+    'vite:css',
+    'vite:esbuild',
+    'vite:json',
+    'vite:wasm-helper',
+    'vite:worker',
+    'vite:asset',
+    'vite:vue',
+    'vite:wasm-fallback',
+    'vite:define',
+    'vite:css-post',
+    'vite:worker-import-meta-url',
+    'vite:asset-import-meta-url',
+    'vite:dynamic-import-vars',
+    'vite:import-glob',
+    'vite-plugin-vue-inspector:post',
+    'vite:client-inject',
+    'vite:css-analysis',
+    'vite:import-analysis'
+  ],
+  resolve: {
+    externalConditions: [ 'node', 'module-sync' ],
+    extensions: [
+      '.mjs',  '.js',
+      '.mts',  '.ts',
+      '.jsx',  '.tsx',
+      '.json'
+    ],
+    dedupe: [ 'vue' ],
+    noExternal: [],
+    external: [],
+    preserveSymlinks: false,
+    alias: [
+      {
+        find: '@',
+        replacement: 'd:\\桌面\\239971~1\\VUE_XI~1\\VUE_XI~1\\qian_duan\\1\\src'
+      },
+      {
+        find: /^\/?@vite\/env/,
+        replacement: '/@fs/d:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1/node_modules/vite/dist/client/env.mjs'
+      },
+      {
+        find: /^\/?@vite\/client/,
+        replacement: '/@fs/d:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1/node_modules/vite/dist/client/client.mjs'
+      }
+    ],
+    mainFields: [ 'browser', 'module', 'jsnext:main', 'jsnext' ],
+    conditions: [ 'module', 'browser', 'development|production' ],
+    builtins: []
+  },
+  server: {
+    port: 5173,
+    strictPort: false,
+    host: undefined,
+    allowedHosts: [],
+    https: undefined,
+    open: false,
+    proxy: {
+      '/api': {
+        target: 'http://localhost:3000',
+        secure: false,
+        changeOrigin: true,
+        rewrite: [Function: rewrite]
+      }
+    },
+    cors: {
+      origin: /^https?:\/\/(?:(?:[^:]+\.)?localhost|127\.0\.0\.1|\[::1\])(?::\d+)?$/
+    },
+    headers: {},
+    warmup: { clientFiles: [], ssrFiles: [] },
+    middlewareMode: false,
+    fs: {
+      strict: true,
+      deny: [ '.env', '.env.*', '*.{crt,pem}', '**/.git/**' ],
+      allow: [ 'd:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1' ]
+    },
+    preTransformRequests: true,
+    perEnvironmentStartEndDuringDev: false,
+    perEnvironmentWatchChangeDuringDev: false,
+    sourcemapIgnoreList: [Function: isInNodeModules]
+  },
+  define: {
+    __VUE_OPTIONS_API__: true,
+    __VUE_PROD_DEVTOOLS__: false,
+    __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: false
+  },
+  ssr: {
+    target: 'node',
+    optimizeDeps: {
+      esbuildOptions: { preserveSymlinks: false },
+      include: [],
+      exclude: [],
+      needsInterop: [],
+      extensions: [],
+      holdUntilCrawlEnd: true,
+      force: false,
+      ignoreOutdatedRequests: false,
+      noDiscovery: true
+    },
+    external: [],
+    noExternal: [],
+    resolve: {
+      conditions: [ 'module', 'node', 'development|production' ],
+      externalConditions: [ 'node', 'module-sync' ]
+    }
+  },
+  environments: {
+    client: {
+      define: {
+        __VUE_OPTIONS_API__: true,
+        __VUE_PROD_DEVTOOLS__: false,
+        __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: false
+      },
+      resolve: {
+        externalConditions: [ 'node', 'module-sync' ],
+        extensions: [
+          '.mjs',  '.js',
+          '.mts',  '.ts',
+          '.jsx',  '.tsx',
+          '.json'
+        ],
+        dedupe: [ 'vue' ],
+        noExternal: [],
+        external: [],
+        preserveSymlinks: false,
+        alias: [
+          {
+            find: '@',
+            replacement: 'd:\\桌面\\239971~1\\VUE_XI~1\\VUE_XI~1\\qian_duan\\1\\src'
+          },
+          {
+            find: /^\/?@vite\/env/,
+            replacement: '/@fs/d:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1/node_modules/vite/dist/client/env.mjs'
+          },
+          {
+            find: /^\/?@vite\/client/,
+            replacement: '/@fs/d:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1/node_modules/vite/dist/client/client.mjs'
+          }
+        ],
+        mainFields: [ 'browser', 'module', 'jsnext:main', 'jsnext' ],
+        conditions: [ 'module', 'browser', 'development|production' ],
+        builtins: []
+      },
+      keepProcessEnv: false,
+      consumer: 'client',
+      optimizeDeps: {
+        include: [],
+        exclude: [],
+        needsInterop: [],
+        extensions: [],
+        disabled: undefined,
+        holdUntilCrawlEnd: true,
+        force: false,
+        ignoreOutdatedRequests: false,
+        noDiscovery: false,
+        esbuildOptions: { preserveSymlinks: false }
+      },
+      dev: {
+        warmup: [],
+        sourcemap: { js: true },
+        sourcemapIgnoreList: [Function: isInNodeModules],
+        preTransformRequests: true,
+        createEnvironment: [Function: defaultCreateClientDevEnvironment],
+        recoverable: true,
+        moduleRunnerTransform: false
+      },
+      build: {
+        target: [ 'chrome107', 'edge107', 'firefox104', 'safari16' ],
+        polyfillModulePreload: true,
+        modulePreload: { polyfill: true },
+        outDir: 'dist',
+        assetsDir: 'assets',
+        assetsInlineLimit: 4096,
+        sourcemap: false,
+        terserOptions: {},
+        rollupOptions: {},
+        commonjsOptions: { include: [ /node_modules/ ], extensions: [ '.js', '.cjs' ] },
+        dynamicImportVarsOptions: { warnOnError: true, exclude: [ /node_modules/ ] },
+        write: true,
+        emptyOutDir: null,
+        copyPublicDir: true,
+        license: false,
+        manifest: false,
+        lib: false,
+        ssrManifest: false,
+        ssrEmitAssets: false,
+        reportCompressedSize: true,
+        chunkSizeWarningLimit: 500,
+        watch: null,
+        cssCodeSplit: true,
+        minify: 'esbuild',
+        ssr: false,
+        emitAssets: true,
+        createEnvironment: [Function: createEnvironment],
+        cssTarget: [ 'chrome107', 'edge107', 'firefox104', 'safari16' ],
+        cssMinify: true
+      },
+      plugins: [
+        {
+          name: 'vite:optimized-deps',
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: [Function (anonymous)],
+          load: [Function (anonymous)]
+        },
+        {
+          name: 'vite:watch-package-data',
+          buildStart: [Function: buildStart],
+          buildEnd: [Function: buildEnd],
+          watchChange: [Function: watchChange]
+        },
+        {
+          name: 'vite:pre-alias',
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: [Function (anonymous)]
+        },
+        {
+          name: 'alias',
+          buildStart: [AsyncFunction: buildStart],
+          resolveId: [Function (anonymous)]
+        },
+        {
+          name: 'vite-plugin-inspect',
+          enforce: 'pre',
+          apply: [Function: apply],
+          configResolved: [Function: configResolved],
+          configureServer: [Function: configureServer],
+          load: { order: 'pre', handler: [Function (anonymous)] },
+          hotUpdate: [Function: hotUpdate],
+          buildEnd: [AsyncFunction: buildEnd],
+          sharedDuringBuild: true
+        },
+        {
+          name: 'vite-plugin-vue-inspector',
+          enforce: 'pre',
+          apply: [Function: apply],
+          resolveId: [Function (anonymous)],
+          load: [Function (anonymous)],
+          transform: [Function (anonymous)],
+          configureServer: [Function: configureServer],
+          transformIndexHtml: [Function: transformIndexHtml],
+          configResolved: [Function: configResolved]
+        },
+        {
+          name: 'vite-plugin-vue-devtools',
+          enforce: 'pre',
+          apply: 'serve',
+          configResolved: [Function: configResolved],
+          configureServer: [Function: configureServer],
+          resolveId: [Function (anonymous)],
+          load: [Function (anonymous)],
+          transform: [Function (anonymous)],
+          transformIndexHtml: [Function: transformIndexHtml],
+          buildEnd: [AsyncFunction: buildEnd]
+        },
+        {
+          name: 'vite:modulepreload-polyfill',
+          resolveId: {
+            filter: { id: /^vite\/modulepreload\-polyfill$/ },
+            handler: [Function (anonymous)]
+          },
+          load: {
+            filter: { id: /^ vite\/modulepreload\-polyfill\.js$/ },
+            handler: [Function (anonymous)]
+          }
+        },
+        {
+          name: 'vite:resolve',
+          resolveId: {
+            filter: { id: { exclude: /^(?:\0|\/?virtual:)/ } },
+            handler: [Function (anonymous)]
+          },
+          load: {
+            filter: {
+              id: [
+                /^__vite\-browser\-external/,
+                /^__vite\-optional\-peer\-dep/
+              ]
+            },
+            handler: [Function (anonymous)]
+          }
+        },
+        {
+          name: 'vite:html-inline-proxy',
+          resolveId: {
+            filter: { id: /[?&]html-proxy\b/ },
+            handler: [Function (anonymous)]
+          },
+          load: {
+            filter: { id: /[?&]html-proxy\b/ },
+            handler: [Function (anonymous)]
+          }
+        },
+        {
+          name: 'vite:css',
+          buildStart: [Function: buildStart],
+          buildEnd: [Function: buildEnd],
+          load: {
+            filter: {
+              id: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/
+            },
+            handler: [Function (anonymous)]
+          },
+          transform: {
+            filter: {
+              id: {
+                include: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/,
+                exclude: [
+                  /[?&]commonjs-proxy/,
+                  /[?&](?:worker|sharedworker|raw|url)\b/
+                ]
+              }
+            },
+            handler: [Function (anonymous)]
+          }
+        },
+        {
+          name: 'vite:esbuild',
+          configureServer: [Function: configureServer],
+          transform: [Function (anonymous)]
+        },
+        {
+          name: 'vite:json',
+          transform: {
+            filter: {
+              id: {
+                include: /\.json(?:$|\?)(?!commonjs-(?:proxy|external))/,
+                exclude: /[?&](?:worker|sharedworker|raw|url)\b/
+              }
+            },
+            handler: [Function (anonymous)]
+          }
+        },
+        {
+          name: 'vite:wasm-helper',
+          resolveId: {
+            filter: { id: /^ vite\/wasm\-helper\.js$/ },
+            handler: [Function (anonymous)]
+          },
+          load: {
+            filter: {
+              id: [
+                /^ vite\/wasm\-helper\.js$/,
+                /(?<![?#].*)\.wasm\?init/
+              ]
+            },
+            handler: [Function (anonymous)]
+          }
+        },
+        {
+          name: 'vite:worker',
+          buildStart: [Function: buildStart],
+          load: {
+            filter: { id: /(?:\?|&)(worker|sharedworker)(?:&|$)/ },
+            handler: [Function (anonymous)]
+          },
+          transform: {
+            filter: { id: /(?:\?|&)worker_file&type=(\w+)(?:&|$)/ },
+            handler: [Function (anonymous)]
+          },
+          renderChunk: [Function: renderChunk],
+          generateBundle: [Function: generateBundle],
+          watchChange: [Function: watchChange]
+        },
+        {
+          name: 'vite:asset',
+          perEnvironmentStartEndDuringDev: true,
+          buildStart: [Function: buildStart],
+          resolveId: { handler: [Function (anonymous)] },
+          load: {
+            filter: { id: { exclude: /^\0/ } },
+            handler: [Function (anonymous)]
+          },
+          renderChunk: [Function: renderChunk],
+          generateBundle: [Function: generateBundle]
+        },
+        {
+          name: 'vite:vue',
+          api: {
+            options: [Getter/Setter],
+            include: [Getter/Setter],
+            exclude: [Getter/Setter],
+            version: '6.0.4'
+          },
+          handleHotUpdate: [Function: handleHotUpdate],
+          config: [Function: config],
+          configResolved: [Function: configResolved],
+          options: [Function: options],
+          shouldTransformCachedModule: [Function: shouldTransformCachedModule],
+          configureServer: [Function: configureServer],
+          buildStart: [Function: buildStart],
+          resolveId: {
+            filter: { id: [ /^ plugin\-vue:export\-helper$/, /[?&]vue\b/ ] },
+            handler: [Function (anonymous)]
+          },
+          load: {
+            filter: { id: [ /^ plugin\-vue:export\-helper$/, /[?&]vue\b/ ] },
+            handler: [Function (anonymous)]
+          },
+          transform: { handler: [Function (anonymous)] }
+        },
+        {
+          name: 'vite:wasm-fallback',
+          load: {
+            filter: { id: /\.wasm$/ },
+            handler: [Function (anonymous)]
+          }
+        },
+        {
+          name: 'vite:define',
+          transform: { handler: [Function (anonymous)] }
+        },
+        {
+          name: 'vite:css-post',
+          renderStart: [Function: renderStart],
+          transform: {
+            filter: {
+              id: {
+                include: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/,
+                exclude: [
+                  /[?&]commonjs-proxy/,
+                  /[?&](?:worker|sharedworker|raw|url)\b/
+                ]
+              }
+            },
+            handler: [Function (anonymous)]
+          },
+          renderChunk: [AsyncFunction: renderChunk],
+          augmentChunkHash: [Function: augmentChunkHash],
+          generateBundle: [AsyncFunction: generateBundle]
+        },
+        {
+          name: 'vite:worker-import-meta-url',
+          applyToEnvironment: [Function: applyToEnvironment],
+          transform: {
+            filter: {
+              code: /new\s+(?:Worker|SharedWorker)\s*\(\s*new\s+URL.+?import\.meta\.url/s
+            },
+            handler: [Function (anonymous)]
+          }
+        },
+        {
+          name: 'vite:asset-import-meta-url',
+          applyToEnvironment: [Function: applyToEnvironment],
+          transform: {
+            filter: {
+              id: {
+                exclude: [
+                  /^ vite\/preload\-helper\.js$/,
+                  /^d:\\桌面\\239971~1\\VUE_XI~1\\VUE_XI~1\\qian_duan\\1\\node_modules\\vite\\dist\\client\\client\.mjs$/
+                ]
+              },
+              code: /new\s+URL.+import\.meta\.url/s
+            },
+            handler: [Function (anonymous)]
+          }
+        },
+        {
+          name: 'vite:dynamic-import-vars',
+          resolveId: {
+            filter: { id: /^ vite\/dynamic\-import\-helper\.js$/ },
+            handler: [Function (anonymous)]
+          },
+          load: {
+            filter: { id: /^ vite\/dynamic\-import\-helper\.js$/ },
+            handler: [Function (anonymous)]
+          },
+          transform: {
+            filter: {
+              id: {
+                exclude: /^d:\\桌面\\239971~1\\VUE_XI~1\\VUE_XI~1\\qian_duan\\1\\node_modules\\vite\\dist\\client\\client\.mjs$/
+              },
+              code: /\bimport\s*[(/]/
+            },
+            handler: [Function (anonymous)]
+          }
+        },
+        {
+          name: 'vite:import-glob',
+          buildStart: [Function: buildStart],
+          transform: {
+            filter: { code: 'import.meta.glob' },
+            handler: [Function (anonymous)]
+          },
+          hotUpdate: [Function: hotUpdate]
+        },
+        {
+          name: 'vite-plugin-vue-inspector:post',
+          enforce: 'post',
+          apply: [Function: apply],
+          transform: [Function (anonymous)]
+        },
+        {
+          name: 'vite:client-inject',
+          buildStart: [AsyncFunction: buildStart],
+          transform: [Function (anonymous)]
+        },
+        {
+          name: 'vite:css-analysis',
+          transform: {
+            filter: {
+              id: {
+                include: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/,
+                exclude: [
+                  /[?&]commonjs-proxy/,
+                  /[?&](?:worker|sharedworker|raw|url)\b/
+                ]
+              }
+            },
+            handler: [Function (anonymous)]
+          }
+        },
+        {
+          name: 'vite:import-analysis',
+          transform: [Function (anonymous)]
+        }
+      ]
+    },
+    ssr: {
+      define: {
+        __VUE_OPTIONS_API__: true,
+        __VUE_PROD_DEVTOOLS__: false,
+        __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: false
+      },
+      resolve: {
+        externalConditions: [ 'node', 'module-sync' ],
+        extensions: [
+          '.mjs',  '.js',
+          '.mts',  '.ts',
+          '.jsx',  '.tsx',
+          '.json'
+        ],
+        dedupe: [ 'vue' ],
+        noExternal: [],
+        external: [],
+        preserveSymlinks: false,
+        alias: [
+          {
+            find: '@',
+            replacement: 'd:\\桌面\\239971~1\\VUE_XI~1\\VUE_XI~1\\qian_duan\\1\\src'
+          },
+          {
+            find: /^\/?@vite\/env/,
+            replacement: '/@fs/d:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1/node_modules/vite/dist/client/env.mjs'
+          },
+          {
+            find: /^\/?@vite\/client/,
+            replacement: '/@fs/d:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1/node_modules/vite/dist/client/client.mjs'
+          }
+        ],
+        mainFields: [ 'module', 'jsnext:main', 'jsnext' ],
+        conditions: [ 'module', 'node', 'development|production' ],
+        builtins: [
+          '_http_agent',         '_http_client',        '_http_common',
+          '_http_incoming',      '_http_outgoing',      '_http_server',
+          '_stream_duplex',      '_stream_passthrough', '_stream_readable',
+          '_stream_transform',   '_stream_wrap',        '_stream_writable',
+          '_tls_common',         '_tls_wrap',           'assert',
+          'assert/strict',       'async_hooks',         'buffer',
+          'child_process',       'cluster',             'console',
+          'constants',           'crypto',              'dgram',
+          'diagnostics_channel', 'dns',                 'dns/promises',
+          'domain',              'events',              'fs',
+          'fs/promises',         'http',                'http2',
+          'https',               'inspector',           'inspector/promises',
+          'module',              'net',                 'os',
+          'path',                'path/posix',          'path/win32',
+          'perf_hooks',          'process',             'punycode',
+          'querystring',         'readline',            'readline/promises',
+          'repl',                'stream',              'stream/consumers',
+          'stream/promises',     'stream/web',          'string_decoder',
+          'sys',                 'timers',              'timers/promises',
+          'tls',                 'trace_events',        'tty',
+          'url',                 'util',                'util/types',
+          'v8',                  'vm',                  'wasi',
+          'worker_threads',      'zlib',                /^node:/,
+          /^bun:/
+        ]
+      },
+      keepProcessEnv: true,
+      consumer: 'server',
+      optimizeDeps: {
+        include: [],
+        exclude: [],
+        needsInterop: [],
+        extensions: [],
+        disabled: undefined,
+        holdUntilCrawlEnd: true,
+        force: false,
+        ignoreOutdatedRequests: false,
+        noDiscovery: true,
+        esbuildOptions: { preserveSymlinks: false }
+      },
+      dev: {
+        warmup: [],
+        sourcemap: { js: true },
+        sourcemapIgnoreList: [Function: isInNodeModules],
+        preTransformRequests: false,
+        createEnvironment: [Function: defaultCreateDevEnvironment],
+        recoverable: false,
+        moduleRunnerTransform: true
+      },
+      build: {
+        target: [ 'chrome107', 'edge107', 'firefox104', 'safari16' ],
+        polyfillModulePreload: true,
+        modulePreload: { polyfill: true },
+        outDir: 'dist',
+        assetsDir: 'assets',
+        assetsInlineLimit: 4096,
+        sourcemap: false,
+        terserOptions: {},
+        rollupOptions: {},
+        commonjsOptions: { include: [ /node_modules/ ], extensions: [ '.js', '.cjs' ] },
+        dynamicImportVarsOptions: { warnOnError: true, exclude: [ /node_modules/ ] },
+        write: true,
+        emptyOutDir: null,
+        copyPublicDir: true,
+        license: false,
+        manifest: false,
+        lib: false,
+        ssrManifest: false,
+        ssrEmitAssets: false,
+        reportCompressedSize: true,
+        chunkSizeWarningLimit: 500,
+        watch: null,
+        cssCodeSplit: true,
+        minify: false,
+        ssr: true,
+        emitAssets: false,
+        createEnvironment: [Function: createEnvironment],
+        cssTarget: [ 'chrome107', 'edge107', 'firefox104', 'safari16' ],
+        cssMinify: 'esbuild'
+      },
+      plugins: [
+        {
+          name: 'vite:watch-package-data',
+          buildStart: [Function: buildStart],
+          buildEnd: [Function: buildEnd],
+          watchChange: [Function: watchChange]
+        },
+        {
+          name: 'alias',
+          buildStart: [AsyncFunction: buildStart],
+          resolveId: [Function (anonymous)]
+        },
+        {
+          name: 'vite-plugin-inspect',
+          enforce: 'pre',
+          apply: [Function: apply],
+          configResolved: [Function: configResolved],
+          configureServer: [Function: configureServer],
+          load: { order: 'pre', handler: [Function (anonymous)] },
+          hotUpdate: [Function: hotUpdate],
+          buildEnd: [AsyncFunction: buildEnd],
+          sharedDuringBuild: true
+        },
+        {
+          name: 'vite-plugin-vue-inspector',
+          enforce: 'pre',
+          apply: [Function: apply],
+          resolveId: [Function (anonymous)],
+          load: [Function (anonymous)],
+          transform: [Function (anonymous)],
+          configureServer: [Function: configureServer],
+          transformIndexHtml: [Function: transformIndexHtml],
+          configResolved: [Function: configResolved]
+        },
+        {
+          name: 'vite-plugin-vue-devtools',
+          enforce: 'pre',
+          apply: 'serve',
+          configResolved: [Function: configResolved],
+          configureServer: [Function: configureServer],
+          resolveId: [Function (anonymous)],
+          load: [Function (anonymous)],
+          transform: [Function (anonymous)],
+          transformIndexHtml: [Function: transformIndexHtml],
+          buildEnd: [AsyncFunction: buildEnd]
+        },
+        {
+          name: 'vite:modulepreload-polyfill',
+          resolveId: {
+            filter: { id: /^vite\/modulepreload\-polyfill$/ },
+            handler: [Function (anonymous)]
+          },
+          load: {
+            filter: { id: /^ vite\/modulepreload\-polyfill\.js$/ },
+            handler: [Function (anonymous)]
+          }
+        },
+        {
+          name: 'vite:resolve',
+          resolveId: {
+            filter: { id: { exclude: /^(?:\0|\/?virtual:)/ } },
+            handler: [Function (anonymous)]
+          },
+          load: {
+            filter: {
+              id: [
+                /^__vite\-browser\-external/,
+                /^__vite\-optional\-peer\-dep/
+              ]
+            },
+            handler: [Function (anonymous)]
+          }
+        },
+        {
+          name: 'vite:html-inline-proxy',
+          resolveId: {
+            filter: { id: /[?&]html-proxy\b/ },
+            handler: [Function (anonymous)]
+          },
+          load: {
+            filter: { id: /[?&]html-proxy\b/ },
+            handler: [Function (anonymous)]
+          }
+        },
+        {
+          name: 'vite:css',
+          buildStart: [Function: buildStart],
+          buildEnd: [Function: buildEnd],
+          load: {
+            filter: {
+              id: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/
+            },
+            handler: [Function (anonymous)]
+          },
+          transform: {
+            filter: {
+              id: {
+                include: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/,
+                exclude: [
+                  /[?&]commonjs-proxy/,
+                  /[?&](?:worker|sharedworker|raw|url)\b/
+                ]
+              }
+            },
+            handler: [Function (anonymous)]
+          }
+        },
+        {
+          name: 'vite:esbuild',
+          configureServer: [Function: configureServer],
+          transform: [Function (anonymous)]
+        },
+        {
+          name: 'vite:json',
+          transform: {
+            filter: {
+              id: {
+                include: /\.json(?:$|\?)(?!commonjs-(?:proxy|external))/,
+                exclude: /[?&](?:worker|sharedworker|raw|url)\b/
+              }
+            },
+            handler: [Function (anonymous)]
+          }
+        },
+        {
+          name: 'vite:wasm-helper',
+          resolveId: {
+            filter: { id: /^ vite\/wasm\-helper\.js$/ },
+            handler: [Function (anonymous)]
+          },
+          load: {
+            filter: {
+              id: [
+                /^ vite\/wasm\-helper\.js$/,
+                /(?<![?#].*)\.wasm\?init/
+              ]
+            },
+            handler: [Function (anonymous)]
+          }
+        },
+        {
+          name: 'vite:worker',
+          buildStart: [Function: buildStart],
+          load: {
+            filter: { id: /(?:\?|&)(worker|sharedworker)(?:&|$)/ },
+            handler: [Function (anonymous)]
+          },
+          transform: {
+            filter: { id: /(?:\?|&)worker_file&type=(\w+)(?:&|$)/ },
+            handler: [Function (anonymous)]
+          },
+          renderChunk: [Function: renderChunk],
+          generateBundle: [Function: generateBundle],
+          watchChange: [Function: watchChange]
+        },
+        {
+          name: 'vite:asset',
+          perEnvironmentStartEndDuringDev: true,
+          buildStart: [Function: buildStart],
+          resolveId: { handler: [Function (anonymous)] },
+          load: {
+            filter: { id: { exclude: /^\0/ } },
+            handler: [Function (anonymous)]
+          },
+          renderChunk: [Function: renderChunk],
+          generateBundle: [Function: generateBundle]
+        },
+        {
+          name: 'vite:vue',
+          api: {
+            options: [Getter/Setter],
+            include: [Getter/Setter],
+            exclude: [Getter/Setter],
+            version: '6.0.4'
+          },
+          handleHotUpdate: [Function: handleHotUpdate],
+          config: [Function: config],
+          configResolved: [Function: configResolved],
+          options: [Function: options],
+          shouldTransformCachedModule: [Function: shouldTransformCachedModule],
+          configureServer: [Function: configureServer],
+          buildStart: [Function: buildStart],
+          resolveId: {
+            filter: { id: [ /^ plugin\-vue:export\-helper$/, /[?&]vue\b/ ] },
+            handler: [Function (anonymous)]
+          },
+          load: {
+            filter: { id: [ /^ plugin\-vue:export\-helper$/, /[?&]vue\b/ ] },
+            handler: [Function (anonymous)]
+          },
+          transform: { handler: [Function (anonymous)] }
+        },
+        {
+          name: 'vite:wasm-fallback',
+          load: {
+            filter: { id: /\.wasm$/ },
+            handler: [Function (anonymous)]
+          }
+        },
+        {
+          name: 'vite:define',
+          transform: { handler: [Function (anonymous)] }
+        },
+        {
+          name: 'vite:css-post',
+          renderStart: [Function: renderStart],
+          transform: {
+            filter: {
+              id: {
+                include: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/,
+                exclude: [
+                  /[?&]commonjs-proxy/,
+                  /[?&](?:worker|sharedworker|raw|url)\b/
+                ]
+              }
+            },
+            handler: [Function (anonymous)]
+          },
+          renderChunk: [AsyncFunction: renderChunk],
+          augmentChunkHash: [Function: augmentChunkHash],
+          generateBundle: [AsyncFunction: generateBundle]
+        },
+        {
+          name: 'vite:dynamic-import-vars',
+          resolveId: {
+            filter: { id: /^ vite\/dynamic\-import\-helper\.js$/ },
+            handler: [Function (anonymous)]
+          },
+          load: {
+            filter: { id: /^ vite\/dynamic\-import\-helper\.js$/ },
+            handler: [Function (anonymous)]
+          },
+          transform: {
+            filter: {
+              id: {
+                exclude: /^d:\\桌面\\239971~1\\VUE_XI~1\\VUE_XI~1\\qian_duan\\1\\node_modules\\vite\\dist\\client\\client\.mjs$/
+              },
+              code: /\bimport\s*[(/]/
+            },
+            handler: [Function (anonymous)]
+          }
+        },
+        {
+          name: 'vite:import-glob',
+          buildStart: [Function: buildStart],
+          transform: {
+            filter: { code: 'import.meta.glob' },
+            handler: [Function (anonymous)]
+          },
+          hotUpdate: [Function: hotUpdate]
+        },
+        {
+          name: 'vite-plugin-vue-inspector:post',
+          enforce: 'post',
+          apply: [Function: apply],
+          transform: [Function (anonymous)]
+        },
+        {
+          name: 'vite:client-inject',
+          buildStart: [AsyncFunction: buildStart],
+          transform: [Function (anonymous)]
+        },
+        {
+          name: 'vite:css-analysis',
+          transform: {
+            filter: {
+              id: {
+                include: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/,
+                exclude: [
+                  /[?&]commonjs-proxy/,
+                  /[?&](?:worker|sharedworker|raw|url)\b/
+                ]
+              }
+            },
+            handler: [Function (anonymous)]
+          }
+        },
+        {
+          name: 'vite:import-analysis',
+          transform: [Function (anonymous)]
+        }
+      ]
+    }
+  },
+  configFile: 'd:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1/vite.config.js',
+  configFileDependencies: [ 'd:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1/vite.config.js' ],
+  inlineConfig: {
+    root: undefined,
+    base: undefined,
+    mode: undefined,
+    configFile: undefined,
+    configLoader: undefined,
+    logLevel: undefined,
+    clearScreen: undefined,
+    server: { host: undefined },
+    forceOptimizeDeps: undefined
+  },
+  root: 'd:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1',
+  base: '/',
+  decodedBase: '/',
+  rawBase: '/',
+  publicDir: 'd:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1/public',
+  cacheDir: 'd:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1/node_modules/.vite',
+  command: 'serve',
+  mode: 'development',
+  isWorker: false,
+  mainConfig: null,
+  bundleChain: [],
+  isProduction: false,
+  css: {
+    transformer: 'postcss',
+    preprocessorMaxWorkers: true,
+    devSourcemap: false
+  },
+  json: { namedExports: true, stringify: 'auto' },
+  esbuild: { jsxDev: true, charset: 'utf8', legalComments: 'none' },
+  builder: undefined,
+  preview: {
+    port: 4173,
+    strictPort: false,
+    host: undefined,
+    allowedHosts: [],
+    https: undefined,
+    open: false,
+    proxy: {
+      '/api': {
+        target: 'http://localhost:3000',
+        secure: false,
+        changeOrigin: true,
+        rewrite: [Function: rewrite]
+      }
+    },
+    cors: {
+      origin: /^https?:\/\/(?:(?:[^:]+\.)?localhost|127\.0\.0\.1|\[::1\])(?::\d+)?$/
+    },
+    headers: {}
+  },
+  envDir: 'd:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1',
+  env: { BASE_URL: '/', MODE: 'development', DEV: true, PROD: false },
+  assetsInclude: [Function: assetsInclude],
+  logger: {
+    hasWarned: false,
+    info: [Function: info],
+    warn: [Function (anonymous)],
+    warnOnce: [Function: warnOnce],
+    error: [Function: error],
+    clearScreen: [Function: clearScreen],
+    hasErrorLogged: [Function: hasErrorLogged]
+  },
+  packageCache: Map(1) {
+    'fnpd_d:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1' => {
+      dir: 'd:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1',
+      data: {
+        name: 'backend',
+        version: '0.0.0',
+        private: true,
+        type: 'module',
+        scripts: { dev: 'vite', build: 'vite build', preview: 'vite preview' },
+        dependencies: {
+          axios: '^1.13.6',
+          'element-plus': '^2.13.3',
+          pinia: '^3.0.4',
+          vue: '^3.5.29',
+          'vue-router': '^5.0.3'
+        },
+        devDependencies: {
+          '@vitejs/plugin-vue': '^6.0.4',
+          autoprefixer: '^10.4.27',
+          postcss: '^8.5.8',
+          tailwindcss: '^3.4.19',
+          vite: '^7.3.1',
+          'vite-plugin-vue-devtools': '^8.0.6'
+        },
+        engines: { node: '^20.19.0 || >=22.12.0' }
+      },
+      hasSideEffects: [Function: hasSideEffects],
+      setResolvedCache: [Function: setResolvedCache],
+      getResolvedCache: [Function: getResolvedCache]
+    },
+    set: [Function (anonymous)]
+  },
+  worker: { format: 'iife', plugins: '() => plugins', rollupOptions: {} },
+  appType: 'spa',
+  experimental: {
+    importGlobRestoreExtension: false,
+    renderBuiltUrl: undefined,
+    hmrPartialAccept: false
+  },
+  future: undefined,
+  optimizeDeps: {
+    include: [],
+    exclude: [],
+    needsInterop: [],
+    extensions: [],
+    disabled: undefined,
+    holdUntilCrawlEnd: true,
+    force: false,
+    ignoreOutdatedRequests: false,
+    noDiscovery: false,
+    esbuildOptions: { preserveSymlinks: false }
+  },
+  dev: {
+    warmup: [],
+    sourcemap: { js: true },
+    sourcemapIgnoreList: [Function: isInNodeModules],
+    preTransformRequests: false,
+    createEnvironment: [Function: defaultCreateDevEnvironment],
+    recoverable: false,
+    moduleRunnerTransform: false
+  },
+  build: {
+    target: [ 'chrome107', 'edge107', 'firefox104', 'safari16' ],
+    polyfillModulePreload: true,
+    modulePreload: { polyfill: true },
+    outDir: 'dist',
+    assetsDir: 'assets',
+    assetsInlineLimit: 4096,
+    sourcemap: false,
+    terserOptions: {},
+    rollupOptions: {},
+    commonjsOptions: { include: [ /node_modules/ ], extensions: [ '.js', '.cjs' ] },
+    dynamicImportVarsOptions: { warnOnError: true, exclude: [ /node_modules/ ] },
+    write: true,
+    emptyOutDir: null,
+    copyPublicDir: true,
+    license: false,
+    manifest: false,
+    lib: false,
+    ssrManifest: false,
+    ssrEmitAssets: false,
+    reportCompressedSize: true,
+    chunkSizeWarningLimit: 500,
+    watch: null,
+    cssCodeSplit: true,
+    minify: 'esbuild',
+    ssr: false,
+    emitAssets: false,
+    createEnvironment: [Function: createEnvironment],
+    cssTarget: [ 'chrome107', 'edge107', 'firefox104', 'safari16' ],
+    cssMinify: true
+  },
+  webSocketToken: 'atx-z1QKc1I2',
+  getSortedPlugins: [Function: getSortedPlugins],
+  getSortedPluginHooks: [Function: getSortedPluginHooks],
+  createResolver: [Function (anonymous)],
+  fsDenyGlob: [Function: arrayMatcher],
+  safeModulePaths: Set(0) {},
+  [Symbol(vite:resolved-config)]: true
+}
+[2m00:10:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Re-optimizing dependencies because vite config has changed
+2026-04-09T16:10:44.679Z vite:deps (client) [32mremoving old cache dir d:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1/node_modules/.vite/deps[39m
+2026-04-09T16:10:44.722Z vite:deps [32mscanning for dependencies...[39m
+
+  [32m[1mVITE[22m v7.3.1[39m  [2mready in [0m[1m3423[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+  ➜  Vue DevTools: Open http://localhost:5173/__devtools__/ as a separate window
+  ➜  Vue DevTools: Press Alt(⌥)+Shift(⇧)+D in App to toggle the Vue DevTools
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+2026-04-09T16:10:44.750Z vite:hmr [file change] [2mvite-debug.txt[22m
+2026-04-09T16:10:44.751Z vite:hmr (client) [no modules matched] [2mvite-debug.txt[22m
+2026-04-09T16:10:44.751Z vite:hmr (ssr) [no modules matched] [2mvite-debug.txt[22m
+2026-04-09T16:10:44.759Z vite:deps Crawling dependencies using entries: 
+  [2md:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1/index.html[22m
+2026-04-09T16:10:45.307Z vite:deps [32m✨ static imports crawl ended[39m
+2026-04-09T16:10:45.629Z vite:hmr [file change] [2mvite-debug.txt[22m
+2026-04-09T16:10:45.630Z vite:hmr (client) [no modules matched] [2mvite-debug.txt[22m
+2026-04-09T16:10:45.630Z vite:hmr (ssr) [no modules matched] [2mvite-debug.txt[22m
+2026-04-09T16:10:45.657Z vite:resolve [32m1.30ms[39m [36md:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1/index.html[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/index.html[22m
+2026-04-09T16:10:45.662Z vite:resolve [32m0.71ms[39m [36m/src/main.js[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/main.js[22m
+2026-04-09T16:10:45.672Z vite:resolve [32m4.20ms[39m [36mvue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/vue/dist/vue.runtime.esm-bundler.js[22m
+2026-04-09T16:10:45.678Z vite:resolve [32m2.41ms[39m [36mpinia[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/pinia/dist/pinia.mjs[22m
+2026-04-09T16:10:45.681Z vite:resolve [32m0.45ms[39m [36m./App.vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/App.vue[22m
+2026-04-09T16:10:45.693Z vite:resolve [32m1.33ms[39m [36m./router[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/router/index.js[22m
+2026-04-09T16:10:45.696Z vite:resolve [32m1.88ms[39m [36melement-plus[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/element-plus/es/index.mjs[22m
+2026-04-09T16:10:45.698Z vite:resolve [32m1.01ms[39m [36melement-plus/dist/index.css[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/element-plus/dist/index.css[22m
+2026-04-09T16:10:45.700Z vite:resolve [32m1.68ms[39m [36m@element-plus/icons-vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/@element-plus/icons-vue/dist/index.js[22m
+2026-04-09T16:10:45.701Z vite:resolve [32m1.37ms[39m [36maxios[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/axios/index.js[22m
+2026-04-09T16:10:45.705Z vite:resolve [32m1.85ms[39m [36mvue-router[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/vue-router/dist/vue-router.js[22m
+2026-04-09T16:10:45.706Z vite:resolve [32m0.40ms[39m [36md:\桌面\239971~1\VUE_XI~1\VUE_XI~1\qian_duan\1\src/views/user/login.vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/views/user/login.vue[22m
+2026-04-09T16:10:45.706Z vite:resolve [32m0.62ms[39m [36m@/views/user/login.vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/views/user/login.vue[22m
+2026-04-09T16:10:45.706Z vite:resolve [32m0.34ms[39m [36md:\桌面\239971~1\VUE_XI~1\VUE_XI~1\qian_duan\1\src/views/user/register.vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/views/user/register.vue[22m
+2026-04-09T16:10:45.706Z vite:resolve [32m0.43ms[39m [36m@/views/user/register.vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/views/user/register.vue[22m
+2026-04-09T16:10:45.707Z vite:resolve [32m0.41ms[39m [36md:\桌面\239971~1\VUE_XI~1\VUE_XI~1\qian_duan\1\src/layouts/MainLayout.vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/layouts/MainLayout.vue[22m
+2026-04-09T16:10:45.707Z vite:resolve [32m0.49ms[39m [36m@/layouts/MainLayout.vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/layouts/MainLayout.vue[22m
+2026-04-09T16:10:45.708Z vite:resolve [32m0.31ms[39m [36md:\桌面\239971~1\VUE_XI~1\VUE_XI~1\qian_duan\1\src/views/dashboard/index.vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/views/dashboard/index.vue[22m
+2026-04-09T16:10:45.708Z vite:resolve [32m0.39ms[39m [36m@/views/dashboard/index.vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/views/dashboard/index.vue[22m
+2026-04-09T16:10:45.708Z vite:resolve [32m0.32ms[39m [36md:\桌面\239971~1\VUE_XI~1\VUE_XI~1\qian_duan\1\src/views/product/index.vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/views/product/index.vue[22m
+2026-04-09T16:10:45.708Z vite:resolve [32m0.41ms[39m [36m@/views/product/index.vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/views/product/index.vue[22m
+2026-04-09T16:10:45.709Z vite:resolve [32m0.34ms[39m [36md:\桌面\239971~1\VUE_XI~1\VUE_XI~1\qian_duan\1\src/views/product/category.vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/views/product/category.vue[22m
+2026-04-09T16:10:45.709Z vite:resolve [32m0.43ms[39m [36m@/views/product/category.vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/views/product/category.vue[22m
+2026-04-09T16:10:45.709Z vite:resolve [32m0.35ms[39m [36md:\桌面\239971~1\VUE_XI~1\VUE_XI~1\qian_duan\1\src/views/order/index.vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/views/order/index.vue[22m
+2026-04-09T16:10:45.709Z vite:resolve [32m0.45ms[39m [36m@/views/order/index.vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/views/order/index.vue[22m
+2026-04-09T16:10:45.710Z vite:resolve [32m0.33ms[39m [36md:\桌面\239971~1\VUE_XI~1\VUE_XI~1\qian_duan\1\src/views/customer/analysis.vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/views/customer/analysis.vue[22m
+2026-04-09T16:10:45.710Z vite:resolve [32m0.42ms[39m [36m@/views/customer/analysis.vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/views/customer/analysis.vue[22m
+2026-04-09T16:10:45.711Z vite:resolve [32m0.32ms[39m [36md:\桌面\239971~1\VUE_XI~1\VUE_XI~1\qian_duan\1\src/views/user/profile.vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/views/user/profile.vue[22m
+2026-04-09T16:10:45.711Z vite:resolve [32m0.49ms[39m [36m@/views/user/profile.vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/views/user/profile.vue[22m
+2026-04-09T16:10:45.717Z vite:resolve [32m0.67ms[39m [36md:\桌面\239971~1\VUE_XI~1\VUE_XI~1\qian_duan\1\src/api/user[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/api/user.js[22m
+2026-04-09T16:10:45.717Z vite:resolve [32m0.84ms[39m [36m@/api/user[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/api/user.js[22m
+2026-04-09T16:10:45.717Z vite:resolve [32m0.53ms[39m [36md:\桌面\239971~1\VUE_XI~1\VUE_XI~1\qian_duan\1\src/stores/tabs[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/stores/tabs.js[22m
+2026-04-09T16:10:45.718Z vite:resolve [32m0.63ms[39m [36m@/stores/tabs[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/stores/tabs.js[22m
+2026-04-09T16:10:45.719Z vite:resolve [32m1.24ms[39m [36md:\桌面\239971~1\VUE_XI~1\VUE_XI~1\qian_duan\1\src/api/shang_pin[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/api/shang_pin.js[22m
+2026-04-09T16:10:45.719Z vite:resolve [32m1.30ms[39m [36md:\桌面\239971~1\VUE_XI~1\VUE_XI~1\qian_duan\1\src/api/ke_hu[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/api/ke_hu.js[22m
+2026-04-09T16:10:45.719Z vite:resolve [32m1.31ms[39m [36md:\桌面\239971~1\VUE_XI~1\VUE_XI~1\qian_duan\1\src/api/ding_dan[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/api/ding_dan.js[22m
+2026-04-09T16:10:45.719Z vite:resolve [32m1.43ms[39m [36m@/api/shang_pin[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/api/shang_pin.js[22m
+2026-04-09T16:10:45.719Z vite:resolve [32m1.44ms[39m [36m@/api/ke_hu[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/api/ke_hu.js[22m
+2026-04-09T16:10:45.719Z vite:resolve [32m1.44ms[39m [36m@/api/ding_dan[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/api/ding_dan.js[22m
+2026-04-09T16:10:45.721Z vite:resolve [32m1.11ms[39m [36md:\桌面\239971~1\VUE_XI~1\VUE_XI~1\qian_duan\1\src/api/lei_bie[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/api/lei_bie.js[22m
+2026-04-09T16:10:45.721Z vite:resolve [32m1.16ms[39m [36md:\桌面\239971~1\VUE_XI~1\VUE_XI~1\qian_duan\1\src/views/Image3DStack.vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/views/Image3DStack.vue[22m
+2026-04-09T16:10:45.721Z vite:resolve [32m1.30ms[39m [36m@/api/lei_bie[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/api/lei_bie.js[22m
+2026-04-09T16:10:45.721Z vite:resolve [32m1.29ms[39m [36m@/views/Image3DStack.vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/views/Image3DStack.vue[22m
+2026-04-09T16:10:45.723Z vite:resolve [32m0.54ms[39m [36m./base[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/api/base.js[22m
+2026-04-09T16:10:45.726Z vite:resolve [32m0.63ms[39m [36md:\桌面\239971~1\VUE_XI~1\VUE_XI~1\qian_duan\1\src/utils/request[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/utils/request.js[22m
+2026-04-09T16:10:45.726Z vite:resolve [32m0.76ms[39m [36m@/utils/request[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/src/utils/request.js[22m
+2026-04-09T16:10:45.730Z vite:deps Scan completed in 1008.29ms: 
+  [36m@element-plus/icons-vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/@element-plus/icons-vue/dist/index.js[22m
+  [36maxios[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/axios/index.js[22m
+  [36melement-plus[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/element-plus/es/index.mjs[22m
+  [36mpinia[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/pinia/dist/pinia.mjs[22m
+  [36mvue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/vue/dist/vue.runtime.esm-bundler.js[22m
+  [36mvue-router[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/vue-router/dist/vue-router.js[22m
+2026-04-09T16:10:45.732Z vite:deps [32mcreating package.json in d:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1/node_modules/.vite/deps_temp_2a770f00[39m
+2026-04-09T16:10:45.750Z vite:resolve [32m2.57ms[39m [36m@vue/runtime-dom[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js[22m
+2026-04-09T16:10:45.753Z vite:resolve [32m1.51ms[39m [36mvue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/vue/dist/vue.runtime.esm-bundler.js[22m
+2026-04-09T16:10:45.755Z vite:resolve [32m2.34ms[39m [36m@vue/devtools-api[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/@vue/devtools-api/dist/index.js[22m
+2026-04-09T16:10:45.758Z vite:resolve [32m1.93ms[39m [36m@vue/runtime-core[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js[22m
+2026-04-09T16:10:45.761Z vite:resolve [32m2.83ms[39m [36m@vue/devtools-kit[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/@vue/devtools-kit/dist/index.js[22m
+2026-04-09T16:10:45.765Z vite:resolve [32m3.58ms[39m [36m@vue/shared[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/@vue/shared/dist/shared.esm-bundler.js[22m
+2026-04-09T16:10:45.765Z vite:resolve [32m3.63ms[39m [36mdayjs[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/dayjs/dayjs.min.js[22m
+2026-04-09T16:10:45.775Z vite:resolve [32m1.73ms[39m [36m@vue/devtools-api[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/vue-router/node_modules/@vue/devtools-api/dist/index.js[22m
+2026-04-09T16:10:45.779Z vite:resolve [32m3.62ms[39m [36m@vue/devtools-shared[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/@vue/devtools-shared/dist/index.js[22m
+2026-04-09T16:10:45.783Z vite:resolve [32m3.15ms[39m [36m@vue/devtools-kit[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/vue-router/node_modules/@vue/devtools-kit/dist/index.js[22m
+2026-04-09T16:10:45.788Z vite:resolve [32m4.54ms[39m [36mperfect-debounce[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/perfect-debounce/dist/index.mjs[22m
+2026-04-09T16:10:45.788Z vite:resolve [32m4.59ms[39m [36m@vue/reactivity[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js[22m
+2026-04-09T16:10:45.790Z vite:resolve [32m1.37ms[39m [36mhookable[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/hookable/dist/index.mjs[22m
+2026-04-09T16:10:45.792Z vite:resolve [32m1.87ms[39m [36mbirpc[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/birpc/dist/index.mjs[22m
+2026-04-09T16:10:45.797Z vite:resolve [32m2.92ms[39m [36m@vue/devtools-shared[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/vue-router/node_modules/@vue/devtools-shared/dist/index.js[22m
+2026-04-09T16:10:45.800Z vite:resolve [32m2.16ms[39m [36mperfect-debounce[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/vue-router/node_modules/perfect-debounce/dist/index.mjs[22m
+2026-04-09T16:10:45.911Z vite:resolve [32m4.20ms[39m [36m@element-plus/icons-vue[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/@element-plus/icons-vue/dist/index.js[22m
+2026-04-09T16:10:45.921Z vite:resolve [32m9.26ms[39m [36m@popperjs/core[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/@popperjs/core/dist/index.mjs[22m
+2026-04-09T16:10:45.921Z vite:resolve [32m9.34ms[39m [36mlodash-unified[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/lodash-unified/import.js[22m
+2026-04-09T16:10:45.939Z vite:resolve [33m17.69ms[39m [36mnormalize-wheel-es[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/normalize-wheel-es/dist/index.mjs[22m
+2026-04-09T16:10:45.953Z vite:resolve [33m12.72ms[39m [36m@vueuse/core[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/@vueuse/core/index.mjs[22m
+2026-04-09T16:10:45.973Z vite:resolve [32m6.95ms[39m [36mlodash-es[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/lodash-es/lodash.js[22m
+2026-04-09T16:10:45.973Z vite:resolve [32m7.05ms[39m [36m@vueuse/shared[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/@vueuse/shared/index.mjs[22m
+2026-04-09T16:10:45.992Z vite:resolve [33m10.45ms[39m [36mvue-demi[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/@vueuse/core/node_modules/vue-demi/lib/index.mjs[22m
+2026-04-09T16:10:45.992Z vite:resolve [33m10.55ms[39m [36m@floating-ui/dom[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/@floating-ui/dom/dist/floating-ui.dom.mjs[22m
+2026-04-09T16:10:46.015Z vite:resolve [33m13.30ms[39m [36mvue-demi[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/@vueuse/shared/node_modules/vue-demi/lib/index.mjs[22m
+2026-04-09T16:10:46.033Z vite:resolve [33m13.87ms[39m [36m@floating-ui/core[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/@floating-ui/core/dist/floating-ui.core.mjs[22m
+2026-04-09T16:10:46.059Z vite:resolve [33m11.64ms[39m [36m@floating-ui/utils[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/@floating-ui/utils/dist/floating-ui.utils.mjs[22m
+2026-04-09T16:10:46.059Z vite:resolve [33m11.68ms[39m [36mdayjs/plugin/customParseFormat.js[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/dayjs/plugin/customParseFormat.js[22m
+2026-04-09T16:10:46.075Z vite:resolve [33m14.76ms[39m [36masync-validator[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/async-validator/dist-web/index.js[22m
+2026-04-09T16:10:46.075Z vite:resolve [33m14.65ms[39m [36m@ctrl/tinycolor[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/@ctrl/tinycolor/dist/module/public_api.js[22m
+2026-04-09T16:10:46.097Z vite:resolve [33m21.19ms[39m [36m@floating-ui/utils/dom[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/@floating-ui/utils/dist/floating-ui.utils.dom.mjs[22m
+2026-04-09T16:10:46.121Z vite:resolve [33m11.56ms[39m [36mdayjs/plugin/advancedFormat.js[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/dayjs/plugin/advancedFormat.js[22m
+2026-04-09T16:10:46.140Z vite:resolve [32m8.32ms[39m [36mdayjs/plugin/localeData.js[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/dayjs/plugin/localeData.js[22m
+2026-04-09T16:10:46.147Z vite:resolve [32m6.91ms[39m [36mmemoize-one[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/memoize-one/dist/memoize-one.esm.js[22m
+2026-04-09T16:10:46.151Z vite:resolve [32m3.07ms[39m [36mdayjs/plugin/weekOfYear.js[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/dayjs/plugin/weekOfYear.js[22m
+2026-04-09T16:10:46.157Z vite:resolve [32m4.69ms[39m [36mdayjs/plugin/weekYear.js[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/dayjs/plugin/weekYear.js[22m
+2026-04-09T16:10:46.160Z vite:resolve [32m1.31ms[39m [36mdayjs/plugin/dayOfYear.js[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/dayjs/plugin/dayOfYear.js[22m
+2026-04-09T16:10:46.162Z vite:resolve [32m1.07ms[39m [36mdayjs/plugin/isSameOrAfter.js[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/dayjs/plugin/isSameOrAfter.js[22m
+2026-04-09T16:10:46.164Z vite:resolve [32m0.77ms[39m [36mdayjs/plugin/isSameOrBefore.js[39m -> [2mD:/桌面/239971216-刘赟楷-宝贝星球母婴电商数据管理系统/VUE_xiangmu/VUE_xiangmu/qian_duan/1/node_modules/dayjs/plugin/isSameOrBefore.js[22m
+2026-04-09T16:10:46.548Z vite:deps Dependencies bundled in 814.01ms
+2026-04-09T16:10:46.549Z vite:deps [32m✨ using post-scan optimizer result, the scanner found every used dependency[39m
+2026-04-09T16:10:46.549Z vite:deps [32mcreating _metadata.json in d:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1/node_modules/.vite/deps_temp_2a770f00[39m
+2026-04-09T16:10:46.550Z vite:deps [32mrenaming d:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1/node_modules/.vite/deps_temp_2a770f00 to d:/桌面/239971~1/VUE_XI~1/VUE_XI~1/qian_duan/1/node_modules/.vite/deps[39m
+2026-04-09T16:10:46.551Z vite:deps [32m✨ dependencies optimized[39m
+2026-04-09T16:12:37.810Z vite:hmr [file change] [2mvite-debug.txt[22m
+2026-04-09T16:12:37.811Z vite:hmr (client) [no modules matched] [2mvite-debug.txt[22m
+2026-04-09T16:12:37.811Z vite:hmr (ssr) [no modules matched] [2mvite-debug.txt[22m
+^C
