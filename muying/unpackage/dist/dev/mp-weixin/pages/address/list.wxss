@@ -1,0 +1,24 @@
+.address-page.data-v-90a3874e { background: #f5f5f5; min-height: 100vh; padding-bottom: 80px;
+}
+.addr-card.data-v-90a3874e { background: #fff; margin: 10px 15px; border-radius: 12px; padding: 15px; display: flex; align-items: center;
+}
+.addr-info.data-v-90a3874e { flex: 1; margin-right: 15px;
+}
+.user-row.data-v-90a3874e { margin-bottom: 8px; display: flex; align-items: baseline;
+}
+.name.data-v-90a3874e { font-size: 16px; font-weight: bold; color: #333; margin-right: 10px;
+}
+.phone.data-v-90a3874e { font-size: 14px; color: #666; margin-right: 10px;
+}
+.default-tag.data-v-90a3874e { font-size: 10px; color: #fff; background: #ff4d4f; padding: 2px 6px; border-radius: 4px;
+}
+.detail-row.data-v-90a3874e { font-size: 13px; color: #333; line-height: 1.5;
+}
+.edit-icon.data-v-90a3874e { font-size: 18px; color: #999; padding: 5px;
+}
+.empty-box.data-v-90a3874e { text-align: center; color: #999; padding-top: 100px;
+}
+.bottom-bar.data-v-90a3874e { position: fixed; bottom: 0; left: 0; right: 0; background: #fff; padding: 10px 15px; padding-bottom: calc(10px + env(safe-area-inset-bottom)); box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+}
+.add-btn.data-v-90a3874e { background: linear-gradient(90deg, #ff6034, #ee0a24); color: #fff; text-align: center; height: 44px; line-height: 44px; border-radius: 22px; font-size: 16px; font-weight: bold;
+}

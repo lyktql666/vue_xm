@@ -1,0 +1,18 @@
+.edit-page.data-v-dcb1f0d8 { background: #f5f5f5; min-height: 100vh; padding-top: 10px;
+}
+.form-group.data-v-dcb1f0d8 { background: #fff; padding: 0 15px; margin-bottom: 10px;
+}
+.form-item.data-v-dcb1f0d8 { display: flex; align-items: center; min-height: 50px; border-bottom: 1px solid #f9f9f9;
+}
+.textarea-item.data-v-dcb1f0d8 { align-items: flex-start; padding: 15px 0; border-bottom: none;
+}
+.label.data-v-dcb1f0d8 { width: 80px; font-size: 15px; color: #333;
+}
+.input.data-v-dcb1f0d8 { flex: 1; font-size: 15px;
+}
+.textarea.data-v-dcb1f0d8 { flex: 1; height: 80px; font-size: 15px; line-height: 1.5;
+}
+.default-box.data-v-dcb1f0d8 { display: flex; justify-content: space-between; align-items: center; height: 55px;
+}
+.save-btn.data-v-dcb1f0d8 { margin: 30px 15px; background: linear-gradient(90deg, #ff6034, #ee0a24); color: #fff; text-align: center; height: 46px; line-height: 46px; border-radius: 23px; font-size: 16px; font-weight: bold;
+}

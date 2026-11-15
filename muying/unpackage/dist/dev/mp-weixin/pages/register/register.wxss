@@ -1,0 +1,15 @@
+/* 样式和登录页一模一样，直接复用 */
+.login-container.data-v-bac4a35d { padding: 40px 30px; background: #fff; height: 100vh;
+}
+.header.data-v-bac4a35d { margin-bottom: 50px;
+}
+.title.data-v-bac4a35d { font-size: 28px; font-weight: bold; color: #333; margin-bottom: 10px;
+}
+.input-group.data-v-bac4a35d { margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 10px;
+}
+.label.data-v-bac4a35d { font-size: 12px; color: #333; font-weight: bold; margin-bottom: 10px; display: block;
+}
+.input.data-v-bac4a35d { font-size: 16px; height: 40px;
+}
+.btn-login.data-v-bac4a35d { background: linear-gradient(90deg, #ff6034, #ee0a24); color: #fff; text-align: center; height: 46px; line-height: 46px; border-radius: 23px; font-size: 16px; font-weight: bold; margin-top: 40px; box-shadow: 0 4px 10px rgba(238,10,36,0.3);
+}

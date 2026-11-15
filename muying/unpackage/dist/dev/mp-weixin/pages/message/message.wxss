@@ -1,0 +1,54 @@
+.message-page.data-v-4c1b26cf { height: 100vh; display: flex; flex-direction: column; background-color: #fff;
+}
+.nav-header.data-v-4c1b26cf { padding: 50px 0 15px; text-align: center; font-size: 18px; font-weight: bold; color: #333; border-bottom: 1px solid #f9f9f9;}
+
+/* 顶部三大金刚区 */
+.top-action-bar.data-v-4c1b26cf { display: flex; justify-content: space-around; padding: 25px 20px;
+}
+.action-item.data-v-4c1b26cf { display: flex; flex-direction: column; align-items: center;
+}
+
+/* B站同款纯色大圆底座 */
+.icon-box.data-v-4c1b26cf { width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; position: relative; margin-bottom: 10px;
+}
+.bg-green.data-v-4c1b26cf { background-color: #00d28a;
+} /* 回复绿 */
+.bg-pink.data-v-4c1b26cf { background-color: #ff6699;
+}  /* 点赞粉 */
+.bg-blue.data-v-4c1b26cf { background-color: #00a1d6;
+}  /* 客服蓝 */
+.emoji.data-v-4c1b26cf { font-size: 26px;
+}
+.badge.data-v-4c1b26cf { position: absolute; top: 0; right: -5px; background: #ff4d4f; color: #fff; font-size: 10px; padding: 2px 6px; border-radius: 10px; font-weight: bold; border: 2px solid #fff;}
+.action-name.data-v-4c1b26cf { font-size: 13px; color: #333;
+}
+.divider.data-v-4c1b26cf { height: 10px; background-color: #f5f5f5;
+}
+
+/* 消息列表区 */
+.msg-list.data-v-4c1b26cf { flex: 1; padding: 0 15px;
+}
+.msg-card.data-v-4c1b26cf { display: flex; align-items: center; padding: 15px 0; border-bottom: 1px solid #f5f5f5;
+}
+.msg-card.data-v-4c1b26cf:active { background-color: #fafafa;
+}
+
+/* 头像和系统通知的图标 */
+.avatar-box.data-v-4c1b26cf { width: 46px; height: 46px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; flex-shrink: 0;}
+.logi-bg.data-v-4c1b26cf { background-color: #ff9900;
+}
+.sys-bg.data-v-4c1b26cf { background-color: #1890ff;
+}
+.avatar-img.data-v-4c1b26cf { width: 46px; height: 46px; border-radius: 50%; margin-right: 15px; flex-shrink: 0; border: 1px solid #eee;}
+.msg-info.data-v-4c1b26cf { flex: 1; overflow: hidden;
+}
+.title-row.data-v-4c1b26cf { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;
+}
+.title.data-v-4c1b26cf { font-size: 16px; font-weight: bold; color: #333;
+}
+.time.data-v-4c1b26cf { font-size: 12px; color: #aaa;
+}
+.desc.data-v-4c1b26cf { font-size: 13px; color: #999; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.bottom-tips.data-v-4c1b26cf { text-align: center; color: #ccc; font-size: 12px; padding: 30px 0;
+}

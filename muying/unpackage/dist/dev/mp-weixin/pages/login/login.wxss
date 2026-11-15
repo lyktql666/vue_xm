@@ -1,0 +1,22 @@
+.login-container.data-v-e4e4508d { padding: 40px 30px; background: #fff; height: 100vh;
+}
+.header.data-v-e4e4508d { margin-bottom: 50px;
+}
+.title.data-v-e4e4508d { font-size: 28px; font-weight: bold; color: #333; margin-bottom: 10px;
+}
+.subtitle.data-v-e4e4508d { font-size: 14px; color: #999;
+}
+.input-group.data-v-e4e4508d { margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 10px;
+}
+.label.data-v-e4e4508d { font-size: 12px; color: #333; font-weight: bold; margin-bottom: 10px; display: block;
+}
+.input.data-v-e4e4508d { font-size: 16px; height: 40px;
+}
+.btn-login.data-v-e4e4508d { background: linear-gradient(90deg, #ff6034, #ee0a24); color: #fff; text-align: center; height: 46px; line-height: 46px; border-radius: 23px; font-size: 16px; font-weight: bold; margin-top: 40px; box-shadow: 0 4px 10px rgba(238,10,36,0.3);
+}
+.action-row.data-v-e4e4508d { display: flex; justify-content: space-between; margin-top: 20px; font-size: 13px;
+}
+.link.data-v-e4e4508d { color: #ff4d4f;
+}
+.text-gray.data-v-e4e4508d { color: #999;
+}
